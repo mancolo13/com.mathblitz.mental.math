@@ -13,7 +13,7 @@ class Tab4Screen extends StatelessWidget {
         backgroundColor: AppTheme.surface,
         elevation: 0,
       ),
-      body: Padding(
+      body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
